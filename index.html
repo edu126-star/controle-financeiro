@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+<meta charset="UTF-8">
+<title>Controle Financeiro</title>
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<h1 class="titulo">Dashboard Financeiro</h1>
+
+<div class="container">
+
+    <div class="card">
+
+        <h2>Adicionar Dívida</h2>
+
+        <input id="salario" type="number" placeholder="Seu salário mensal">
+
+        <input id="nomeDivida" placeholder="Nome da dívida">
+
+        <input id="valorDivida" type="number" placeholder="Valor da dívida">
+
+        <select id="categoriaDivida">
+            <option value="Moradia">Moradia</option>
+            <option value="Cartão">Cartão</option>
+            <option value="Alimentação">Alimentação</option>
+            <option value="Lazer">Lazer</option>
+            <option value="Outros">Outros</option>
+        </select>
+
+        <button onclick="adicionarDivida()">Adicionar Dívida</button>
+
+    </div>
+
+    <div class="card">
+
+        <h2>Resumo</h2>
+
+        <ul id="listaDividas"></ul>
+
+        <p id="resultado"></p>
+
+        <canvas id="graficoGastos"></canvas>
+
+    </div>
+
+</div>
+
+<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+<script src="js/finance.js"></script>
+<script src="js/ui.js"></script>
+<script src="js/main.js"></script>
+
+</body>
+
+
+<h2>Controle Financeiro</h2>
+
+        <input id="salario" type="number" placeholder="Seu salário mensal">
+
+        <input id="nomeDivida" placeholder="Nome da dívida">
+
+        <input id="valorDivida" type="number" placeholder="Valor da dívida">
+
+        <select id="categoriaDivida">
+            <option value="Moradia">Moradia</option>
+          
+</html>
+
